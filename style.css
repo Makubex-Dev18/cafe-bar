@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+     padding: 10px;
+     background-color: #BED7DC;
+}
+
+header{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B3C8CF;
+}
+
+#logo{
+    width: 100px;
+    height: 74px;
+    border: 2px double black;
+    border-radius: 18px;
+}
+
+#logo img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+#navbar{
+    display:flex;
+    gap: 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+section{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.card{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.card img{
+    width: 100%;
+    /*el 100% es para que todo se coja del tamaño del padre en este caso del card*/
+    border-radius: 20px;
+}
+
+.card h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card button{
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 90px;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #F1EEDC;
+}
